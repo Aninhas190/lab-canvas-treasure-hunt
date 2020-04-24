@@ -18,6 +18,7 @@ class Treasure {
           //const heightOfImage = characterImage.height;
           context.drawImage(treasureImage, col, row, 50, 50);
         }); 
+        context.drawImage(treasureImage, col, row, 50, 50);
     }
 
 

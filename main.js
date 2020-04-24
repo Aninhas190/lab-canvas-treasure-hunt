@@ -16,6 +16,7 @@ const background = new Background(width, height);
 const treasure = new Treasure(row, col)
 
 function drawEverything() {
+  context.clearRect(0, 0, width, height)
   background.drawGrid();
   player.drawPlayer();
   treasure.drawTreasure()
