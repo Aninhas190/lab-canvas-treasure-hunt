@@ -56,10 +56,7 @@ class Character {
 
     row = this.row * 50;
     col = this.col * 50;
-    //context.drawImage(characterImage, row, col)
     characterImage.addEventListener('load', () => {
-      //const widthOfImage = characterImage.width;
-      //const heightOfImage = characterImage.height;
       context.drawImage(characterImage, col, row);
     });
   }

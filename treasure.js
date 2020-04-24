@@ -12,10 +12,7 @@ class Treasure {
         treasureImage.src = treasureImageURL;
         row = this.row * 50;
         col = this.col * 50;
-        //context.drawImage(treasureImage, row, col);
         window.addEventListener('load', () => {
-          //const widthOfImage = characterImage.width;
-          //const heightOfImage = characterImage.height;
           context.drawImage(treasureImage, col, row, 50, 50);
         }); 
         context.drawImage(treasureImage, col, row, 50, 50);
